@@ -1,3 +1,7 @@
+body{
+	padding-top: 70px;
+}
+
 .image1{
 	background-image: url(https://scontent.fsig1-1.fna.fbcdn.net/v/t1.0-9/11412273_437576289755810_5428524691283351497_n.jpg?oh=4da056489b9ed3876696a673eb82fdc9&oe=59EDE96A);
 }
