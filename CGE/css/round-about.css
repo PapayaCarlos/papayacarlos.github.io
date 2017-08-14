@@ -8,13 +8,24 @@ body {
     padding-top: 54px;
 }
 
+.bg-dark {
+    background-color: #17a2b8!important;
+}
+
 @media (min-width: 992px) {
     body {
         padding-top: 56px;
     }
 }
 
-
+@media (min-width: 768px) {
+  .modal-xl {
+    width: 90%;
+    height: 90%;
+   max-width:1200px;
+   max-height:1200px;
+  }
+}
 hr.style-seven {
     height: 30px;
     border-style: solid;
