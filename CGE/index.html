@@ -71,12 +71,22 @@
                         <h4 class="modal-title">Reglamento CEG</h4>
                     </div>
                     <div class="modal-body">
+                        <!-- <iframe src="vendor/scripts/web/viewer.html?file=http://eloquentjavascript.net/Eloquent_JavaScript.pdf" width="100%" height="800px">
+                                    <p>It appears you don't have a PDF plugin for this browser.
+                                     No biggie... you can <a href="reglamento-interno-cge-uprb.pdf">click here to
+                                    download the PDF file.</a></p>
+                        </iframe> -->
                         <object data="reglamento-interno-cge-uprb.pdf" type="application/pdf" width="100%" height="800px">
-                          <p>It appears you don't have a PDF plugin for this browser.
-                           No biggie... you can <a href="reglamento-interno-cge-uprb.pdf">click here to
-                          download the PDF file.</a></p>
-                         </object>
+                             <embed src="reglamento-interno-cge-uprb.pdf" type="application/pdf" />
+                              <p>It appears you don't have a PDF plugin for this browser.
+                               No biggie... you can <a href="reglamento-interno-cge-uprb.pdf">click here to
+                              download the PDF file.</a></p>
+                             </object>
+
                     </div>
+
+
+
                     <div class="modal-footer">
                         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
                     </div>
@@ -164,8 +174,6 @@
     </footer>
 
 
-
-
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/popper/popper.min.js"></script>
     <script src="vendor/jquery/jquery.min.js"></script>
@@ -173,6 +181,8 @@
     <script src="vendor/scripts/jquery-3.2.1.min.js"></script>
     <script src="vendor/scripts/main.js"></script>
     <script src="vendor/scripts/jquery.waypoints.min.js"></script>
+    <script src="vendor/scripts/pdf.js"></script>
+    <script src="vendor/scripts/pdf.worker.js"></script>
 </body>
 
 </html>
