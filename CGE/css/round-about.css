@@ -61,10 +61,13 @@ html {
     width: 100%;
     text-align: center;
     color: #000;
+
 }
 
+
+
 .parallax1 {
-    background-image: url(https://www.w3schools.com/css/trolltunga.jpg);
+    background-image: url(../img/uprb2.jpg);
     height: 100%;
     width: 100%;
     opacity: 0.85;
@@ -75,7 +78,7 @@ html {
 }
 
 .parallax2 {
-    background-image: url(https://cdn.pixabay.com/photo/2016/10/27/22/53/heart-1776746_960_720.jpg);
+    background-image: url();
     height: 100%;
     width: 100%;
     background-attachment: fixed;
